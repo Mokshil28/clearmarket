@@ -29,6 +29,7 @@ The barrier to stock investing isn't just money — it's **language**. Financial
 | **Database & Auth** | Supabase |
 | **AI / LLM** | Groq SDK (High-speed inference) |
 | **Market Data** | Finnhub, Yahoo Finance, Alpha Vantage |
+| **Social Data** | StockTwits API |
 
 ## 🏗️ Project Structure
 - `/frontend`: Next.js dashboard, jargon decoder UI, and paper-trading interface.
