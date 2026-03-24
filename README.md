@@ -4,34 +4,46 @@
 
 ClearMarket is a full-stack web platform built at **HackDuke 2026** that helps beginners understand the stock market without needing a finance degree. It translates complex financial jargon, analyst opinions, and market news into clear, beginner-friendly language.
 
-## 🔑 Demo Access
-**Note:** User registration is currently under maintenance. Please use these credentials to explore the dashboard:
-* **User ID:** `test6@example.com`
-* **Password:** `password123`
+🔗 **[Live Demo on Vercel](https://clearmarket2.vercel.app/)**
 
 ---
+
+## 🔑 Demo Access
+**Please use the following credentials to log in (Sign-up is currently disabled):**
+* **User ID:** `test6@example.com`
+* **Password:** `password123`
 
 ## 🧠 The Problem
 The barrier to stock investing isn't just money — it's **language**. Financial news is packed with jargon that makes beginners feel shut out. We built ClearMarket to bridge this gap, helping users understand what market information actually means for their portfolio.
 
 ## ✨ Key Features
-* 🔍 **Jargon Decoder:** Simplifies analyst opinions and financial headlines into beginner-friendly summaries.
-* 📊 **Sentiment Analysis:** Highlights market sentiment and the key reasons behind price movements using live feeds.
-* 🛡️ **Paper Trading:** A risk-free environment to practice buying and selling stocks to build confidence.
+* 🔍 **Jargon Decoder:** Simplifies analyst opinions and financial headlines into beginner-friendly summaries using AI.
+* 📊 **Sentiment Analysis:** Highlights market sentiment and the key reasons behind price movements.
+* 📢 **Social Pulse:** Integrated **StockTwits** to show real-time "Bullish vs. Bearish" crowd sentiment.
+* 🛡️ **Paper Trading:** A risk-free environment to practice buying and selling stocks and build confidence.
 * 🏆 **Leaderboard:** Competitive paper trading to make learning fun and engaging.
-* 👤 **Auth & Portfolios:** Personal watchlists and portfolio tracking powered by Supabase.
 
 ## 🛠️ Tech Stack
 | Layer | Technology |
 | :--- | :--- |
-| **Frontend** | Next.js 16, React 19, TypeScript, Tailwind CSS v4 |
-| **Backend** | Node.js, Express v5 |
-| **Database & Auth** | Supabase |
-| **AI / LLM** | Groq SDK (High-speed inference) |
-| **Market Data** | Finnhub, Yahoo Finance, Alpha Vantage |
-| **Social Data** | StockTwits API |
+| **Frontend** | [Next.js 16](https://nextjs.org/), [React 19](https://react.dev/), TypeScript, Tailwind CSS v4 |
+| **Backend** | [Node.js](https://nodejs.org/), Express v5 |
+| **Database & Auth** | [Supabase](https://supabase.com/) |
+| **AI / LLM** | [Groq SDK](https://groq.com/) (High-speed jargon translation) |
+| **Data Sources** | Finnhub, Yahoo Finance, Alpha Vantage, **StockTwits API** |
+| **Deployment** | [Vercel](https://clearmarket2.vercel.app/) |
 
 ## 🏗️ Project Structure
 - `/frontend`: Next.js dashboard, jargon decoder UI, and paper-trading interface.
 - `/backend`: Express server handling API logic, Finnhub integration, and news synchronization.
 - `main.py`: Python-based data processing and market analysis.
+
+## 👥 Team
+Built with ❤️ at HackDuke 2026 by:
+* **Mokshil**
+* [TEAMMATE 2] 
+* [TEAMMATE 3]
+* [TEAMMATE 4]
+
+---
+*Forked from [djmurong/clearmarket](https://github.com/djmurong/clearmarket)*
