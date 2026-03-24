@@ -38,12 +38,7 @@ The barrier to stock investing isn't just money — it's **language**. Financial
 - `/backend`: Express server handling API logic, Finnhub integration, and news synchronization.
 - `main.py`: Python-based data processing and market analysis.
 
-## 👥 Team
-Built with ❤️ at HackDuke 2026 by:
-* **Mokshil**
-* [TEAMMATE 2] 
-* [TEAMMATE 3]
-* [TEAMMATE 4]
+
 
 ---
 *Forked from [djmurong/clearmarket](https://github.com/djmurong/clearmarket)*
